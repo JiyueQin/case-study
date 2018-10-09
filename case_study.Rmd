@@ -1,0 +1,17 @@
+---
+title: "case_study"
+author: "JiyueQin"
+date: "October 8, 2018"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+library(p8105.datasets)
+library(tidyverse)
+```
+
+take a look at the dataset.
+
+```{r bnb}
+str(nyc_airbnb)
+```
